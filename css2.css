@@ -1,0 +1,349 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+@charset "utf-8";
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 17px;
+	color: #FFF;
+}
+a:link {none;}    /* 設定尚未點閱過的連結樣式 */
+a:visited {none0;} /* 設定過去曾經閱過的連結 */
+a:hover {none;}   /* 設定滑鼠游標指在連結位置上的樣式 */
+a:active {none;}  /* 設定上點擊過的連結樣式 */
+
+
+img.a{
+	margin: 0 auto;}
+
+
+	
+#next{
+	width: 50px;
+	height: 100%;
+	top: 50%;
+	right: 0%;
+	padding: 20px;
+	position: fixed;
+	z-index: 200;
+	float: right;
+	margin-top: -25px;
+
+}
+#next:hover{
+}
+
+#back{
+	width: 50px;
+	height: 100%;
+	top: 50%;
+	left: 0%;
+	padding: 20px;
+	position: fixed;
+	z-index: 200;
+	float: left;
+	margin-top: -25px;
+}
+
+.content{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	style="text-align:center;
+	position:relative;
+
+}
+#aside {
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	padding: 0px;
+	flaot: left;
+
+	position: absolute;
+	background-color: #000;
+}
+.aside_trans {
+	width: 20%;
+	height: 100%;
+	left: 0px;
+	margin-left: 8%;
+	padding: 0px;
+	flaot: left;
+	position: absolute;
+	filter: alpha(Opacity=40);-moz-opacity:0.4;opacity: 0.4; 
+
+}
+.article {
+	width: 70%;
+	height: 800px;
+	right: 0px;
+
+	padding: 0px;
+	flaot: left;
+	position: absolute;
+
+}
+#article_text_bg{
+	width: 70%;
+	height: 250px;
+	right: 0px;
+	bottom: -80px;
+	padding: 45px;
+	flaot: left;
+	position: absolute;
+
+}
+#article_text_bg2{
+	width: 70%;
+	height: 670px;
+	right: 0px;
+	bottom: -80px;
+	padding: 45px;
+	flaot: left;
+	position: absolute;
+
+}
+#menu{
+	margin: 0 auto;
+	width: 100%;
+	height: 50px;
+	bottom: 0px;
+	clear: left;
+	z-index: 30;
+	position: fixed;
+	padding-top: 11px;
+	padding-right: 54px;
+	padding-left: 54px;
+	padding-bottom: 11px;
+}
+.menu_a{
+	margin: 0 auto;
+	width: 600px;
+	height: 50px;
+	bottom: 20px;
+	left: 30%;
+	position: absolute;
+	text-align:left;
+	background:url(images/menu/bar-01.png); 
+	background-repeat:no-repeat;
+}
+.menu_a_bg{
+	width: 600px;
+	height: 50px;
+	bottom: 20px;
+	left: 30%;
+	position: absolute;
+	text-align:left;
+
+	background-repeat:no-repeat;
+}
+
+.menu_b{
+	width: 250px;
+	height: 50px;
+	bottom: 10px;
+	left: 8%;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: absolute;
+	text-align:left;
+	background-repeat:no-repeat;
+
+}
+
+*{ margin:0; padding:0;}
+ul li{ list-style:none;}
+.menu_b ul li{ float:left; width:26px; margin-right: 5px;}
+.menu_b_home a:link,a:visited{ display:block; width:190px; height:40px; background:url(images/menu/home1-01.png) no-repeat;}/*链接、点击后*/
+.menu_b_home a:hover{background:url(images/menu/home2-01.png) no-repeat;}/*鼠标经过*/
+
+.menu_b_mail a:link,a:visited{ display:block; width:190px; height:40px; background:url(images/menu/mail-01.png) no-repeat;}/*链接、点击后*/
+.menu_b_mail a:hover{background:url(images/menu/mail2-01.png) no-repeat;}/*鼠标经过*/
+
+.menu_b_facebook a:link,a:visited{ display:block; width:190px; height:40px; background:url(images/menu/facebook-01.png) no-repeat;}/*链接、点击后*/
+.menu_b_facebook a:hover{background:url(images/menu/facebook2-01.png) no-repeat;}/*鼠标经过*/
+
+.menu_b_twitter a:link,a:visited{ display:block; width:190px; height:40px; background:url(images/menu/twitter-01.png) no-repeat;}/*链接、点击后*/
+.menu_b_twitter a:hover{background:url(images/menu/twitter2-01.png) no-repeat;}/*鼠标经过*/
+
+.menu_b_weibo a:link,a:visited{ display:block; width:190px; height:40px; background:url(images/menu/weibo-01.png) no-repeat;}/*链接、点击后*/
+.menu_b_weibo a:hover{background:url(images/menu/weibo2-01.png) no-repeat;}/*鼠标经过*/
+
+.menu_b_instagram a:link,a:visited{ display:block; width:190px; height:40px; background:url(images/menu/instagram-01.png) no-repeat;}/*链接、点击后*/
+.menu_b_instagram a:hover{background:url(images/menu/instagram2-01.png) no-repeat;}/*鼠标经过*/
+.menu_b_barh a:link,a:visited{ display:block; width:190px; height:40px; background:url(images/menu/bar_h-01.png) no-repeat;}/*链接、点击后*/
+.menu_b_barh a:hover{background:url(images/menu/bar_h-01.png) no-repeat;}/*鼠标经过*/
+
+div.button{
+font-weight: bold;
+text-align:left;
+vertical-align:bottom;
+line-height:80%;
+font-variant: small-caps;}
+
+.button1:hover {
+background-image:url(images/menu/button2.png);
+filter:alpha(opacity=80); /* for ie */
+opacity:0.8; /* for ff or other */
+color:#002a35;
+}
+
+
+div.clear{
+width:640px;
+clear:both;}
+ 
+ 
+#botton2a {
+ height:50px;
+ width: 26px;
+ background-repeat:no-repeat;
+ background-position:center;
+ background-image:url(images/menu/home1-01.png);
+ color:#FFF;
+text-align:left;
+float:left;
+text-align:left;
+margin-top:-10px;
+padding-bottom:0px;
+margin-right: 20px;
+}
+
+#botton2a a:hover{
+ background-image:url(images/menu/home2-01.png);
+}
+
+.botton1 {
+ height:18px;
+ width:18px;
+ background-repeat:no-repeat;
+ background-position:center;
+ color:#FFF;
+text-align:left;
+float:left;
+padding-top:16px;
+padding-bottom:16px;
+margin-right: 65px;
+z-index: 45;
+}
+.botton1space {
+ height:18px;
+ width:18px;
+ background-repeat:no-repeat;
+ background-position:center;
+ color:#FFF;
+text-align:left;
+float:left;
+padding-top:16px;
+padding-bottom:16px;
+margin-right: 0px;
+z-index: 45;
+}
+
+/****DEBUT SPINNER****/
+.spinner_button {
+height:18px;
+ width:18px;
+float:left;
+padding:16px;
+margin-right: 29px;
+z-index: 45;
+  /*background-color : #61615E;*/
+  border : 2px solid #FFF;
+  border-left-color : transparent;
+  border-right-color : transparent;
+  border-radius :50%;
+  animation : spin 4s infinite;
+  -webkit-animation : spin 4s infinite;
+  opacity: 0.0;
+  transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -webkit-transition: opacity 1s ease-in-out;
+}
+.spinner_button:hover {
+		opacity: 0.9;
+		transition: opacity .55s ease-in-out;
+		-moz-transition: opacity .55s ease-in-out;
+	}
+
+}
+
+@-webkit-keyframes spin {
+  0% {-webkit-transform : rotate(0deg);}
+  50% {-webkit-transform : rotate(360deg);}
+  100% {-webkit-transform : rotate(0deg);}
+}
+
+@keyframes spin {
+  0% {transform : rotate(0deg);}
+  50% {transform : rotate(360deg);}
+  100% {transform : rotate(0deg);}
+}
+/****FIN SPINNER****/
+
+
+body, h1, h2, p, header, article, aside, footer, img {
+	margin: 0px;
+}
+#side_context{
+	width: 20%;
+	height: 250px;
+	left: 0px;
+	margin-left: 8%;
+	flaot: left;
+	position: absolute;
+	padding: 0px;
+	bottom: -20px;
+	z-index: 25;
+	color: #FFF;
+}
+#side_logo{
+	width: 20%;
+	height: 250px;
+	left: 0px;
+	margin-left: 8%;
+	flaot: left;
+	position: absolute;
+	padding: 0px;
+	top: 45px;
+	z-index:28;
+	color: #FFF;
+	text-align:center;
+}
+#side_logo a:hover{ position:relative; top:2px; left:2px;}
+h2 {
+	font-family: 'Advent Pro', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 36pt;
+	line-height: normal;
+	color: #FFF;
+}
+
+h3 {
+	font-family: 'Noto Sans TC', sans-serif;
+	font-style: normal;
+	font-weight: 100;
+	font-size: 30pt;
+	line-height: normal;
+	color: #FFF;
+	letter-spacing: 0px;
+	text-indent: 45px;
+}
+
+#layout .content #side_context p {
+	text-indent: 45px;
+	line-height: 45px;
+}
+
+body{
+background:#000000;
+
+overflow:hidden;
+}
+
+#layout .content #article_text_bg p, #article_text_bg2 p {
+	text-indent: 90px;
+	line-height: 35px;
+}
